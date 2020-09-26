@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in</title>
+</head>
+<body class="body" >
+	<link rel="stylesheet" type="text/css" href="signinstyle.css">
+	<h1>Welcome for Sign in to Aamir Website</h1>
+		<form>
+			<input id="input-form1" type="name" name="" placeholder="Enter your full name" >
+
+			<hr/>
+			<input id="input-form2" type = "Email" placeholder = "Enter your email">
+			<hr/>
+			<input id="input-form3" type = "Password" placeholder = "Enter your Password">
+			<hr/>
+			<input id="input-form4" type = "Password" placeholder = " Confirm Password">
+			<hr/>
+			<input id="input-form5" type="name" placeholder = "Enter your father name ">
+			<hr/>
+			<input id="input-form6" placeholder = "Name of last joined school ">
+			<hr/>
+			<input id="input-form7" placeholder = "Name of last joined college">
+			<hr/>
+			<input id="input-form8" type="Number" placeholder = "Enter your monthly income ">
+			<hr/>
+			<input id="input-form9" placeholder = "Father occupation">
+
+		</form>
+		<button id="submit" style="position: relative; left: 140px" type="Submit" > Submit</button>	
+		<script type="text/javascript">
+			var increment = 0;
+			let arr = [];
+		
+			for( i = 0; i < 9; i++){
+				increment++;
+				arr[i] = document.getElementById('input-form' + String(increment))
+			}
+			
+
+			submit.onclick = function(){
+				for(i = 0; i < 9; i++){
+
+					if(i == 7)
+					{
+						if(arr[i].value < 1000 )
+						{
+							alert("Monthly income doesnot match")
+							break;
+						}	
+						continue;
+					}
+					if(arr[i].value == '')
+					{
+
+						alert("Please fill all fields");
+						break;
+					}
+				}
+
+				if(arr[2].value != arr[3].value)
+				{
+					alert("Password doesnot match");
+				}
+			}
+
+		</script>
+
+</body>
+</html>

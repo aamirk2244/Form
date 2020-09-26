@@ -1,0 +1,176 @@
+
+
+#Login{
+	color: black;
+	padding: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	position: relative;
+	left: 90.5%;
+	
+}
+
+.read-more{
+	font-family: Alvatica;
+	background-color: white;
+	margin-bottom: 16px;
+	
+}
+
+.center{
+	/*
+	color: white;
+	font-family: serif;
+	font-size: 40px;
+	font-feature-settings: normal;
+	background: gray;
+	border-radius: 2px;
+	border-style: dashed;
+	border-width: 2px;
+	height: 2px;
+	margin-top: 10px;
+	padding: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	*/
+
+	background-image:url("Drink-Water-Think-Hussain-FB-Cover-Picture.jpg");
+	margin-top: 0px;
+
+	padding: 100px;
+	
+	margin-right: 300px;
+	position: relative;
+	left: 160px;
+	background-position: 40px;
+	padding-top: 200px;
+	bottom: 30px;
+}
+.center h1{
+	color: white;
+	position: relative;
+	top: 110px;
+	left: -70px;
+	color: silver;
+}
+.body{
+
+	background: orange;
+	font-family: sans-serif, Arial, Alvatica;
+	font-weight: normal;
+	line-height:  1.4em;
+
+
+}
+
+.top-button{
+	border-style: solid;
+	border-color: orange;
+	margin-left: 80%;
+	margin-right: 6.5%;
+	position : relative;
+	left: 140px;
+}
+.top-button button{
+	background-color: white;
+
+	padding: 5px;
+
+}
+.p1{
+
+	padding-left: 10px;
+	background-color: brown;
+	border-style: groove;
+	
+	border-bottom: double;
+	border-color:  purple;
+	color: white;
+	width: 50%
+	border-style:center;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+
+.p1 h1{
+	font-style: italic;
+	word-spacing: 0.2em;
+	text-decoration: underline;
+}
+.ul1{
+	list-style: square;
+	color: black;
+	background-color: normal;
+	border-style: ridge;
+	border-color: #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+.ul1 li{
+	font-family: Alvatica;
+	font-weight: 0px;
+	list-style: lower-latin;
+}
+.ol1{
+	color: solid;
+	font-family: Alvatica ;
+	border-style: solid;
+	border-color: gray;
+	padding-bottom: 3px;
+	border-bottom-width: 0;
+	list-style: square;
+
+}
+.ul2{
+	font-family: Alvatica;
+	border-style: solid;
+	border-color: gray;
+	margin-top: -13pt;
+	padding-bottom: 2px;
+
+}
+.p2{
+	background-color: silver;
+	border-style: solid;
+	padding: 3px;
+	font-family: Alvatica;
+	letter-spacing: 0.07em;
+	border-width: 0px;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.t1{
+	font-family: Alvatica;
+	background-color: #ccc;
+	border-style: solid;
+	border-color: blue;
+	padding: 5px;
+
+}
+.body img{
+	border-style: dotted;
+	border-color: silver;
+	margin-left: 20%;
+
+}
+.form1{
+	background-color: orange;
+	border-style: solid;
+	padding: 2px;
+	padding-left: 8px;
+	border-width: 0px;
+	font-family: Alvatica;
+}
+.form1 form-group{
+	padding-bottom: 1px;
+}
+
+.body a:hover {
+	color: red;
+}
+.container{
+	background-color: purple;
+}
